@@ -2,8 +2,8 @@ require 'formula'
 
 class Ab < Formula
   homepage 'http://httpd.apache.org/docs/trunk/programs/ab.html'
-  url 'http://archive.apache.org/dist/httpd/httpd-2.4.3.tar.bz2'
-  sha1 '0ef1281bb758add937efe61c345287be2f27f662'
+  url 'http://archive.apache.org/dist/httpd/httpd-2.4.9.tar.bz2'
+  md5 '5c9520f40e2852412cafc3c803e5d0b7'
 
   depends_on 'pcre'
   depends_on 'libtool'
