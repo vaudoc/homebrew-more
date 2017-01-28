@@ -3,7 +3,7 @@ require 'formula'
 class Ab < Formula
   homepage 'http://httpd.apache.org/docs/trunk/programs/ab.html'
   url 'http://archive.apache.org/dist/httpd/httpd-2.4.9.tar.bz2'
-  md5 '5c9520f40e2852412cafc3c803e5d0b7'
+  sha256 '3e62175b6e4c756671e493a863cccfd0ffaf0ef86c7eeb6f7f8f486dd51602e1'
 
   depends_on 'pcre'
   depends_on 'libtool'
