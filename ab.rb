@@ -10,10 +10,8 @@ class Ab < Formula
 
   def install
     ENV['LTFLAGS'] = '--tag CC'
-    system './configure',
-      '--prefix=#{prefix}',
-      '--disable-debug',
-      '--disable-dependency-tracking'
+
+    system './configure', "--prefix=#{prefix}", '--disable-debug', '--disable-dependency-tracking'
 
     cd 'support' do
       system 'make ab'
