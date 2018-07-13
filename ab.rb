@@ -5,6 +5,7 @@ class Ab < Formula
   url 'http://archive.apache.org/dist/httpd/httpd-2.4.9.tar.bz2'
   sha256 'f78cc90dfa47caf3d83ad18fd6b4e85f237777c1733fc9088594b70ce2847603'
 
+  depends_on 'apr-util'
   depends_on 'pcre'
   depends_on 'libtool'
 
